@@ -7,7 +7,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10001/eureka/
-env:
-  dev
-label:
-  dev
+profiles:
+  active: dev
+foo: foo version 1
