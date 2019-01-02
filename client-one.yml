@@ -3,10 +3,6 @@ spring:
     name: client-one
 server:
   port: 20001
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:10001/eureka/
 profiles:
   active: dev
 foo: chendongsuo
