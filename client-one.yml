@@ -5,4 +5,4 @@ server:
   port: 20001
 profiles:
   active: dev
-foo: 陈东锁
+foo: CHEN DS
