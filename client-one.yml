@@ -9,4 +9,3 @@ eureka:
       defaultZone: http://localhost:10001/eureka/
 profiles:
   active: dev
-foo: foo version 1
