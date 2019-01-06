@@ -7,6 +7,6 @@ profiles:
   active: dev
 zuul:
   routes:
-    zuul:
-      path: /zuul/**
+    cds:
+      path: /cds/**
       serviceId: client-one
