@@ -7,6 +7,6 @@ profiles:
   active: dev
 zuul:
   routes:
-    chendongsuo:
+    zuul:
       path: /zuul/**
       serviceId: client-one
