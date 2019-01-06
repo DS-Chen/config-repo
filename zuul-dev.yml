@@ -5,3 +5,8 @@ server:
   port: 40001
 profiles:
   active: dev
+zuul:
+  routes:
+    chendongsuo:
+      path: /zuul/**
+      serviceId: client-one
