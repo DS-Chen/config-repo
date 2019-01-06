@@ -1,6 +1,11 @@
 spring:
   application:
     name: zuul
+zuul:
+  routes:
+    cds:
+      path: /cds/**
+      serviceId: CLIENT-ONE
 server:
   port: 40001
 profiles:
