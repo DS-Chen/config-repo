@@ -6,7 +6,7 @@ zuul:
     cds:
       path: /cds/**
       serviceId: CLIENT-ONE
-      sensitive-headers: 
+      sensitiveHeaders: 
 server:
   port: 40001
 profiles:
