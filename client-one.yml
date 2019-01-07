@@ -13,4 +13,4 @@ server:
   port: 20001
 profiles:
   active: dev
-foo: 陈东锁哈哈哈
+foo: this is my foo!
