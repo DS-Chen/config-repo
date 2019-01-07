@@ -2,6 +2,9 @@ spring:
   application:
     name: zuul
 zuul:
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
   routes:
     cds:
       path: /cds/**
