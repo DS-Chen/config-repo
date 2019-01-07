@@ -13,4 +13,4 @@ server:
   port: 20001
 profiles:
   active: dev
-foo: this is my foo!
+foo: this is my foo hahaha!
