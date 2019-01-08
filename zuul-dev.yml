@@ -10,7 +10,7 @@ zuul:
       path: /cds/**
       serviceId: CLIENT-ONE
       sensitiveHeaders: 
-# 忽略路由
+# 忽略路
   ignored-patterns: /**/clientOne/foo, /**/mqSend
 server:
   port: 40001
