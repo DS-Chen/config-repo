@@ -16,4 +16,4 @@ profiles:
   active: dev
 management:
   security:
-    enabled: true
+    enabled: false
